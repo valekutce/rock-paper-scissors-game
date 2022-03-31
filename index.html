@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Камень Ножницы Бумага</title>
+</head>
+<body>
+    <main class="main">
+        <h1>Игра с компьютером в Камень Ножницы Бумага</h1>
+        <h2 class="buttomImg">Игра до 5 побед <button class="new__game">Новая игра</button> <img src="3.png" alt="фото" class="finger"></h2>
+        <div class="game">
+            <div class="game__wrap">
+                <div class="game__window game__you">
+                    <h2>Ваше окно</h2>
+                    <div class="game__display game__you-display"> <img src="2.png" alt="фото"> </div>
+                </div>
+                <div class="game__window game__comp">
+                    <h2>Окно компьютера</h2>
+                    <div class="game__display game__comp-display"> <img src="1.png" alt="фото"> </div>
+                </div>
+            </div>
+            <div class="game__result">Здесь отображаются подсказки вашей текущей игры</div>
+            <div class="game__select">
+                <div class="game__select_click game__select_rock">Камень</div>
+                <div class="game__select_click game__select_scissors">Ножницы</div>
+                <div class="game__select_click game__select_paper">Бумага</div>
+            </div>
+        </div>
+    </main>
+    <div class="game__start">
+        <div class="game__start-btn">Начать игру</div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
